@@ -1,0 +1,127 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: #1C0307;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    --wibkit-box-sizing: border-box;
+   /*border: 2px solid #ddd;*/
+}
+body{
+    background-color: #7B1777;
+}
+/* start main header style*/
+header{
+    padding: 20px;
+    text-align: center;
+    color: black;
+   background-color: #586450;
+   font-size: 20px;
+   font-weight: bold;
+    
+}
+/* end main header style*/
+/* start main container style*/
+#container{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-around;
+}
+
+
+#container > div{
+    width: 300px;
+    height: 70px;
+    margin: 20px auto 20px;
+    padding: 20px;
+    
+}
+/* end main container style*/
+/*start player choices container*/
+#playerChoices{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+#playerChoices > div{
+    width: 70px;
+    height: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #60783E;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+
+#Result{
+    width: 100px;
+    background-color: #ddd;
+}
+/*end player choices container*/
+/*start choices container*/
+#choices{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 10px;
+}
+#choices i{
+    padding: 20px;
+    border-radius:50% ;
+    text-align: center;
+    align-items: center;
+    background-color: #9CA276;
+}
+#choices >i:hover{
+    background-color: #60783E;
+}
+/*end choices container*/
+/*start result container*/
+#result{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 10px;
+}
+#result i{
+    padding: 20px;
+    border-radius:50% ;
+    text-align: center;
+    align-items: center;
+    background-color: #9CA276;
+}
+/*end result container*/
+/*start end result container*/
+#endResult{
+    
+    height: 200px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#endResult i{
+    max-width: 70px;
+    padding: 20px;
+    border-radius:50% ;
+    text-align: center;
+    background-color: #9CA276;
+}
+
+#endResult >i:hover{
+    background-color: #60783E;
+}
+/*end end result container*/
+
+
+
+
+
+
+
